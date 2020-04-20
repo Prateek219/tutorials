@@ -167,7 +167,7 @@ together determines that a key has been pressed and onkeypress function prints i
 After doing above mentioned things and succesfully compiling the code and uploading it in arduino ,
 we have to open serial monitor by clicking on the top right of arduino software window to see the
 output of any input from keyboard
-## Lcd interfacing with arduino
+## LCD INTERFACING WITH ARDUINO
 We can also connect lcd screen to arduino and obtain our display on lcd screen rather than on serial
 monitor.
 For this we also need to make certain changes in code .

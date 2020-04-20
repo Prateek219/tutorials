@@ -5,7 +5,9 @@ first let me give some information about the hardware and from where you can pur
 Following is the image of mega adk board for android. You can purchase this board by ordering it
 online on [www.arduino.cc](www.ardino.cc) website or you can also purchase it from various distributors of arduino
 boards you can get the list of distributors from above mentioned website only.
-![](C:\Users\Hp\Pictures\Screenshots)
+
+![Screenshot (33)](https://user-images.githubusercontent.com/64007722/79746514-bad97c80-8327-11ea-9328-f21015c3ef74.png)
+
 
 The Arduino ADK is a microcontroller board based on the ATmega2560 . It has a USB host interface to
 connect with Android based phones, based on the MAX3421e IC. It has 54 digital input/output pins (of

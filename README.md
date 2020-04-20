@@ -32,7 +32,7 @@ Just browse through those drivers and arduino drivers are installed. After that 
 and com port from tools . For more information over its installation you can refer to following youtube link
 http://www.youtube.com/watch?v=9PUbfliMZZk
 
-### Arduino software screen looks like as shown below
+## Arduino software screen looks like as shown below
 ![Screenshot (36)](https://user-images.githubusercontent.com/64007722/79746928-6d114400-8328-11ea-9f6e-570f57f64662.png)
 
 - 2 buttons which are below file tab are used to compile and upload code.
@@ -165,7 +165,7 @@ onkeypressed function which puts the character in its original form onto the scr
 using serial.print function .onkeyup function is called when key is relesed . Onkeyup and onkeydown
 together determines that a key has been pressed and onkeypress function prints it on serial monitor
 
-### GETTING OUTPUT 
+## GETTING OUTPUT 
 After doing above mentioned things and succesfully compiling the code and uploading it in arduino ,
 we have to open serial monitor by clicking on the top right of arduino software window to see the
 output of any input from keyboard

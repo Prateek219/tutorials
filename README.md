@@ -65,7 +65,7 @@ SYNC, PID, an 8 bit PID field, followed by a 7 bit address, followed by a 4 bit 
 CRC.
 - Both the address and endpoint field must be correctly decoded for correct operation.
 - The data packet may be of variable length, dependent upon the data. However, the data field will be an intregal number of bytes.
-### Arduino code developed for interfacing is as follow
+## Arduino code developed for interfacing is as follow
 ```arduino
 #include <avrpins.h>
 #include <max3421e.h>
@@ -148,26 +148,28 @@ void loop()
 {
  Usb.Task();
 ```
-## some imporant point for running code properly
+### SOME IMPORTANT POINT FOR RUNNING CODE PROPERLY
 we need to download usb hostshield rev 2.0 version library from www.github.com for various
 header files included in code for using special functions.one more important thing which we need to do
 after downloading the library is to uncomment a #define code written inside avrpin library's H
 file.
 This uncommenting is required only if we are using Arduino Mega ADK board with MAX3421e
 built-in. 
-### some explanation of code
+
+### SOME EXPLANATION OF CODE
 usb is instance of USB class which need to be invoked every time as it calls other function
 onkeydown function is called when any key is pressed on keyboard, this function converts key (a
 particular code assigned to each key of keyboard while transferring its data using usb protocol) into
 ascii and also checks for special keys like alt, contol,shift by calling printkey function, it then calls
 onkeypressed function which puts the character in its original form onto the screen of serial monitor 
 using serial.print function .onkeyup function is called when key is relesed . Onkeyup and onkeydown
-together determines that a key has been pressed and onkeypress function prints it on serial monitor 
-### Getting output 
+together determines that a key has been pressed and onkeypress function prints it on serial monitor
+
+### GETTING OUTPUT 
 After doing above mentioned things and succesfully compiling the code and uploading it in arduino ,
 we have to open serial monitor by clicking on the top right of arduino software window to see the
 output of any input from keyboard
-## LCD INTERFACING WITH ARDUINO
+# LCD INTERFACING WITH ARDUINO
 We can also connect lcd screen to arduino and obtain our display on lcd screen rather than on serial
 monitor.
 For this we also need to make certain changes in code .

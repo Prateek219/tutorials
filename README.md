@@ -32,7 +32,7 @@ Just browse through those drivers and arduino drivers are installed. After that 
 and com port from tools . For more information over its installation you can refer to following youtube link
 http://www.youtube.com/watch?v=9PUbfliMZZk
 
-## Arduino software screen looks like as shown below
+## ARDIUNO SOFTWARE SCREEN LOOK LIKE SHOWN BELOW
 ![Screenshot (36)](https://user-images.githubusercontent.com/64007722/79746928-6d114400-8328-11ea-9f6e-570f57f64662.png)
 
 - 2 buttons which are below file tab are used to compile and upload code.
@@ -65,7 +65,7 @@ SYNC, PID, an 8 bit PID field, followed by a 7 bit address, followed by a 4 bit 
 CRC.
 - Both the address and endpoint field must be correctly decoded for correct operation.
 - The data packet may be of variable length, dependent upon the data. However, the data field will be an intregal number of bytes.
-## Arduino code developed for interfacing is as follow
+## ARDUINO CODE DEVELOPED FOR INTERFACING OF KEYBOARD
 ```arduino
 #include <avrpins.h>
 #include <max3421e.h>

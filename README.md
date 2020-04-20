@@ -32,17 +32,14 @@ Just browse through those drivers and arduino drivers are installed. After that 
 and com port from tools . For more information over its installation you can refer to following youtube link
 http://www.youtube.com/watch?v=9PUbfliMZZk
 
-2 buttons which are below file
-tab are used to compile and
-upload code.
+### Arduino software screen looks like as shown below
+![Screenshot (36)](https://user-images.githubusercontent.com/64007722/79746928-6d114400-8328-11ea-9f6e-570f57f64662.png)
 
-You can try some basic example
-code for e.g. select file →
-examples→basics→blink
+2 buttons which are below file tab are used to compile and upload code.
 
-compile and upload it, led on
-your arduino board will start
-blinking
+You can try some basic example code for e.g. select file → examples→basics→blink
+
+compile and upload it, led on your arduino board will start blinking
 
 ## SOME BASIC FEATURES OF ARDUINO CODING
 Code maily consist of header files , self created functions and their definition and two special

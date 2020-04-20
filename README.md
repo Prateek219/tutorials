@@ -31,6 +31,7 @@ available in arduino folder only inside c drive or whichever drive in which you 
 Just browse through those drivers and arduino drivers are installed. After that select your type of board
 and com port from tools . For more information over its installation you can refer to following youtube link
 http://www.youtube.com/watch?v=9PUbfliMZZk
+___
 
 ## ARDIUNO SOFTWARE SCREEN LOOK LIKE SHOWN BELOW
 ![Screenshot (36)](https://user-images.githubusercontent.com/64007722/79746928-6d114400-8328-11ea-9f6e-570f57f64662.png)
@@ -40,6 +41,7 @@ http://www.youtube.com/watch?v=9PUbfliMZZk
 - You can try some basic example code for e.g. select file → examples→basics→blink
 
 - compile and upload it, led on your arduino board will start blinking
+___
 
 ## SOME BASIC FEATURES OF ARDUINO CODING
 Code maily consist of header files , self created functions and their definition and two special
@@ -51,6 +53,7 @@ void setup and it keeps on executing again and again, just like while(1) loop in
 visionavr
 
 - 2.Serial.print() command is used for directly putting the varialble inside the parenthesis on serial MONITER SCREEN
+___
 ## NOW WE COME TO ACTUAL INTERFACING OF KEYBOARD . 
 - Hardware part simply involves joining usb keyboard with usb shield and connecting arduino with
 laptop
@@ -65,6 +68,7 @@ SYNC, PID, an 8 bit PID field, followed by a 7 bit address, followed by a 4 bit 
 CRC.
 - Both the address and endpoint field must be correctly decoded for correct operation.
 - The data packet may be of variable length, dependent upon the data. However, the data field will be an intregal number of bytes.
+___
 ## ARDUINO CODE DEVELOPED FOR INTERFACING OF KEYBOARD
 ```arduino
 #include <avrpins.h>
@@ -154,7 +158,8 @@ header files included in code for using special functions.one more important thi
 after downloading the library is to uncomment a #define code written inside avrpin library's H
 file.
 This uncommenting is required only if we are using Arduino Mega ADK board with MAX3421e
-built-in. 
+built-in.
+___
 
 ### SOME EXPLANATION OF CODE
 usb is instance of USB class which need to be invoked every time as it calls other function
@@ -164,11 +169,12 @@ ascii and also checks for special keys like alt, contol,shift by calling printke
 onkeypressed function which puts the character in its original form onto the screen of serial monitor 
 using serial.print function .onkeyup function is called when key is relesed . Onkeyup and onkeydown
 together determines that a key has been pressed and onkeypress function prints it on serial monitor
-
+___
 ## GETTING OUTPUT 
 After doing above mentioned things and succesfully compiling the code and uploading it in arduino ,
 we have to open serial monitor by clicking on the top right of arduino software window to see the
 output of any input from keyboard
+___
 # LCD INTERFACING WITH ARDUINO
 We can also connect lcd screen to arduino and obtain our display on lcd screen rather than on serial
 monitor.

@@ -35,11 +35,11 @@ http://www.youtube.com/watch?v=9PUbfliMZZk
 ### Arduino software screen looks like as shown below
 ![Screenshot (36)](https://user-images.githubusercontent.com/64007722/79746928-6d114400-8328-11ea-9f6e-570f57f64662.png)
 
-2 buttons which are below file tab are used to compile and upload code.
+- 2 buttons which are below file tab are used to compile and upload code.
 
-You can try some basic example code for e.g. select file → examples→basics→blink
+- You can try some basic example code for e.g. select file → examples→basics→blink
 
-compile and upload it, led on your arduino board will start blinking
+- compile and upload it, led on your arduino board will start blinking
 
 ## SOME BASIC FEATURES OF ARDUINO CODING
 Code maily consist of header files , self created functions and their definition and two special
